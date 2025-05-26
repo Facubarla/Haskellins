@@ -52,3 +52,8 @@ fun n (x:xs) = foldr (aux n) (0,0) (x:xs)
     -- en fold cuando una lista se vacia devuelve z o lambda
 
 --que hace esta funcion? cuenta cuantas veces aparece n en la lista y devuelve la suma de todos los n que aparecen en la lista.
+
+--Teoria
+-- caracteristicas de haskell, ejecutar y darle el dominio(la forma que deben tener los elementos que le pasamos) , evaluar alguna expresion
+-- algun lista por comprension, verdaderos o falso, correcta o incorrecta, con situaciones planteadas
+-- osea que me devuelve hacer esto:(1:[[12,3]]) o (1: [10,8]) o head [5], snd [1,2,3](por ejemplo el second es para tuplas no listas)
